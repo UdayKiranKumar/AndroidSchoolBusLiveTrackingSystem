@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingStart="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background_solid"
+    tools:context="com.example.capstoneproject.AddSOSFragment">
+
+    <TextView
+        android:text=" Message "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:drawableStart="@drawable/ic_message_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/textView6"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Type here..."
+        android:padding="15dp"
+        android:background="@drawable/edittext_layout"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="top"
+        android:id="@+id/etMessage"
+        android:inputType="textMultiLine"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginStart="250dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:text="SEND" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:text="Back" />
+    </RelativeLayout>
+
+</LinearLayout>

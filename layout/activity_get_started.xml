@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gstarted"
+    android:fitsSystemWindows="true"
+    tools:context=".GetStartedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvwel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text=" WELCOME "
+        android:textAlignment="center"
+        android:textColor="#FB8C00"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageuday"
+        android:layout_width="245dp"
+        android:layout_below="@+id/tvwel"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/carbus"/>
+
+        <ImageView
+            android:id="@+id/boyrun"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/boywalk"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/imageuday"/>
+
+   <ImageView
+       android:id="@+id/boymv"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginStart="210dp"
+       android:layout_marginTop="130dp"
+       android:layout_below="@+id/imageuday"
+       android:src="@drawable/carboy"/>
+
+    <ImageView
+        android:id="@+id/mvbus"
+        android:layout_below="@+id/imageuday"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/boymv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/movebus" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/mvbus"
+        android:layout_marginEnd="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/parallelogram" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/arima_madurai"
+            android:text="------- SCHOOL BUS TRACKING -------"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_directions_walk_black_24dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/salsa"
+        android:text=" YOU ARE READY TO GO "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/line_background" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_gs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:visibility="visible" />
+
+
+</LinearLayout>

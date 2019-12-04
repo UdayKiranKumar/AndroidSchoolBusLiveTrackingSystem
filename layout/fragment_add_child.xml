@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_solid"
+    tools:context="com.example.capstoneproject.AddChildFragment">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ADD CHILD "
+                android:gravity="center"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/no_profile_pic"
+                    android:id="@+id/ivPic"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+            <TextView
+                android:text="Name:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/textView6"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:elevation="5dp"
+                android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:background="@drawable/edit_layout"
+                android:hint="Enter Child Name"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:id="@+id/etName"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="Age:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/textView7"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_layout"
+                android:hint="Enter Child Age"
+                android:elevation="5dp"
+                android:drawableStart="@drawable/ic_font_download_black_24dp"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/etAge"
+                android:fontFamily="sans-serif-condensed-light"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="Time In:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/textView666"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_access_time_black_24dp"
+                android:drawablePadding="10dp"
+                android:elevation="5dp"
+                android:hint="Enter Entry Time"
+                android:padding="15dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/edit_layout"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/etTimeIn"
+                android:fontFamily="sans-serif-condensed-light"
+                android:inputType="time"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="Time Out:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/textView6666"
+                android:textSize="20sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:elevation="5dp"
+                android:drawableStart="@drawable/ic_timer_off_black_24dp"
+                android:background="@drawable/edit_layout"
+                android:drawablePadding="10dp"
+                android:hint="Enter Exit Time"
+                android:padding="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/etTimeOut"
+                android:fontFamily="sans-serif-condensed-light"
+                android:inputType="time"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="Gender:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView8"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/rgGender">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:id="@+id/rbMale"
+                    android:text="Male"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:id="@+id/rbFemale"
+                    android:text="Female"/>
+
+            </RadioGroup>
+
+            <Button
+                android:text="Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_effect"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="#ffffff"
+                android:id="@+id/btnAdd" />
+            <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_effect"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:id="@+id/btnBack" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

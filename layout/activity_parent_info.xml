@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.capstoneproject.ParentInfoActivity">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Back"
+                android:background="@drawable/button_effect"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/guardian1" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Driver-School Locator - The Guardian allows to view the location of Driver and School."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/guardian2" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Set Location - The Guardian is responsible for set location to pick up there child."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/guardian3" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Child/Student Information - The parent see the Information of their child and the time they pick up."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/guardian4" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. SOS - Here, the Parent/Guardian will see the alert posted by the driver."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/guardian5" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Log Out Button - The Parent/Guardian allows to out their account."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

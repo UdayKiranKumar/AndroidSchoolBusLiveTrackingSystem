@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittext_layout"
+            android:drawableStart="@drawable/ic_format_list_numbered_black_24dp"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

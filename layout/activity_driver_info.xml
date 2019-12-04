@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.capstoneproject.DriverInfoActivity">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_effect"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Back"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/driver1" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Once the user succesfully registered or logged in it will show the Log-out button, children information and SOS button."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/driver2" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. For children info button, it will show the child's basic information and driver allow to update the child's location (Fetch, Drop to School, Drop to home or see the current location)."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/driver3" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Choosing Current location, it will show you the map where is the child pick-up location and Drivers Location."
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="100dp">
+
+                <ImageView
+                    android:id="@+id/ivPic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/driver4" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. For SOS Button, drivers update the current situation they encountered. The parents will received this alert."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

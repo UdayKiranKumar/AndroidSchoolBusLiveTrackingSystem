@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_solid"
+    tools:context="com.example.capstoneproject.PolicyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"
+        android:text="Terms and Conditions "
+        android:drawableStart="@drawable/ic_forum_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:ems="10"
+        android:text="\n1. Not sell Students Information\n2. Not build a Personal Profile of a Student other than for \n\t\t supporting authorized Educational/School \n\t\t purposes or as authorized by the parent/student;\n3. Not behaviorally target advertising;\n4. Use data for authorized education purposes only;\n5. Not knowingly retain student personal information beyond \n\t\t the time period required to support\n \t\t the authorized educational/school purposes, or as \n\t\t authorized by the parent/student;\n6. Support parental access to, and correction of errors in, their \n\t\t children’s information." />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="I Agree Conditions" />
+
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_effect"
+        android:textSize="20sp"
+        android:enabled="false"
+        android:text="Continue" />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_effect"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:text="Back" />
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

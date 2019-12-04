@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    tools:context=".Developers">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_solid"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_developer_mode_black_24dp"
+                android:text=" DEVELOPERS "
+                android:gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:textColor="#F1B52B"
+                android:textSize="30sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="100dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/im1"
+                android:src="@drawable/honey"/>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="#606060"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_below="@+id/im1"
+                android:layout_marginStart="17dp"
+                android:text=" Uday Kiran Kumar "/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/im2"
+                android:src="@drawable/dev2" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="#606060"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_below="@id/im2"
+                android:layout_marginStart="220dp"
+                android:text=" Yaswanth Chowdary "/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/im3"
+                android:layout_below="@id/tv1"
+                android:src="@drawable/dev3"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="#606060"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_below="@id/im3"
+                android:layout_marginStart="29dp"
+                android:text=" Ruthwik Reddy "/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/im4"
+                android:layout_below="@id/tv2"
+                android:src="@drawable/dev4" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="#606060"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginStart="240dp"
+                android:layout_below="@id/im4"
+                android:text=" Somu Sekhar "/>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="150dp"
+                android:id="@+id/im5"
+                android:layout_below="@id/tv3"
+                android:src="@drawable/dev5"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="#606060"
+                android:layout_marginStart="145.5dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_below="@id/im5"
+                android:text=" Siva Prasad "/>
+
+            <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_effect"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:textSize="20sp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_below="@id/tv5"
+                android:textColor="#ffffff"
+                android:id="@+id/btnBack" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

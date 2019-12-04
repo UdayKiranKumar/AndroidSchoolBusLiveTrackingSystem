@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sos_layout"
+    android:layout_marginBottom="1dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_update_black_24dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/tvDate"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_message_black_24dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/tvMessage"
+        android:textSize="20sp" />
+
+</LinearLayout>

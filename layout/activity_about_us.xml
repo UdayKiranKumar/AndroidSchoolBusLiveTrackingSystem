@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="10dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/background_solid"
+    tools:context=".AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+
+            <ImageView
+                android:id="@+id/rrr"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/contactus2" />
+
+            <TextView
+                android:id="@+id/ys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:layout_toEndOf="@+id/rrr"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="5dp"
+                android:autoLink="email"
+                android:focusable="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text=" udaykumar287855@gmail.com" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:layout_marginTop="20dp"
+          android:text="9492015216 "
+          android:focusable="true"
+          android:autoLink="phone"
+          android:drawablePadding="10dp"
+          android:layout_toEndOf="@+id/rrr"
+          android:layout_marginStart="10dp"
+          android:textStyle="bold"
+          android:fontFamily="sans-serif-condensed-medium"
+          android:drawableStart="@drawable/ic_call_black_24dp"
+          android:layout_below="@+id/ys"/>
+
+            <TextView
+                android:id="@+id/yas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rrr"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:text="Terms and Conditions "
+                android:drawableStart="@drawable/ic_description_black_24dp"
+                android:drawablePadding="10dp"
+                android:padding="10dp" />
+            <TextView
+                android:id="@+id/editText"
+                android:layout_below="@+id/yas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="10"
+                android:text="\n1. Not sell Students Information\n2. Not build a Personal Profile of a Student other than for \n\t\t supporting authorized Educational/School \n\t\t purposes or as authorized by the parent/student;\n3. Not behaviorally target advertising;\n4. Use data for authorized education purposes only;\n5. Not knowingly retain student personal information beyond \n\t\t the time period required to support\n \t\t the authorized educational/school purposes, or as \n\t\t authorized by the parent/student;\n6. Support parental access to, and correction of errors in, their \n\t\t children’s information." />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_effect"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:text="Back"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+</RelativeLayout>

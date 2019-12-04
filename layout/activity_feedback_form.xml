@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_solid"
+    android:fitsSystemWindows="true"
+    tools:context=".FeedbackForm">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" FEEDBACK FORM "
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_feedback_black_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_layout"
+        android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="To : udaykumar287855@gmail.com" />
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:drawableStart="@drawable/ic_subject_black_24dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edit_layout"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:textColorHint="#606060"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Subject" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:background="@drawable/edit_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#606060"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:gravity="top"
+        android:padding="15dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint=" Message" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_effect"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="250dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Send" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:id="@+id/btnBack"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_effect"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20sp"
+            android:text="Back" />
+    </RelativeLayout>
+
+</LinearLayout>
